@@ -1,34 +1,55 @@
-# 🌤 Weather Horizon - Cloud Hosted Weather App
+# 🌀 Real Time Weather – Live Weather Monitoring Web App
 
-![Weather App Screenshot](./screenshot.png)
+[Real Time Weather](https://storage.googleapis.com/sm-vita-cloud-project/index.html) is a responsive, real-time weather application that lets users search for and view live weather conditions for any city using the OpenWeatherMap API. Built with modern web technologies and deployed on Google Cloud Platform, it provides accurate weather data with a smooth user experience.
 
-A responsive weather dashboard hosted on Google Cloud Platform, featuring real-time weather data and dynamic visuals.
+---
 
-## ✨ Features
-- Real-time weather by location
-- Dynamic background & icons matching conditions
-- Mobile-responsive design
-- Hosted on Google Cloud Storage
-- 4+ GCP services integrated
+## 🚀 Features
 
-## ☁ GCP Services Used
-| Service | Usage |
-|---------|-------|
-| *Cloud Storage (Buckets)* | Hosts static website files |
-| *Cloud Functions* | Backend API proxy (optional) |
-| *Firestore* | Saves user preferences (optional) | 
-| *BigQuery* | Stores search history (optional) |
+- 📍 Search weather by city name  
+- 🌤 Live weather updates using OpenWeatherMap API  
+- 🌡 Displays temperature, humidity, wind speed, and weather condition  
+- 🕒 Shows date and time of last update  
+- ☁ Deployed on Google Cloud Platform for global availability  
 
-## 🚀 Deployment
-```bash
-# 1. Create bucket
-gsutil mb gs://weather-app-$(whoami)
+---
 
-# 2. Enable web hosting
-gsutil web set -m index.html gs://weather-app-$(whoami)
+## 🧱 Tech Stack
 
-# 3. Upload files
-gsutil -m cp -r *.html *.css *.js assets/ gs://weather-app-$(whoami)
+### 🔧 Frontend
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)
 
-# 4. Make public
-gsutil iam ch allUsers:objectViewer gs://weather-app-$(whoami)
+### ☁ Google Cloud Platform (GCP)
+- *OpenWeatherMap API* – for real-time weather data  
+- *Cloud Storage* – for static website hosting  
+
+---
+
+## 🌍 Deployment
+
+The app is hosted on *Google Cloud Storage* as a static website, ensuring fast performance and secure delivery over HTTPS.
+
+---
+
+## 📷 Screenshots
+![image](https://github.com/user-attachments/assets/24f3fd03-beea-426b-b912-2e130eda58eb)
+
+
+## 🧠 Future Improvements
+
+- 🌐 Auto-location detection  
+- 📍 Bookmark favorite cities  
+- 📊 Weather trends and history  
+- 🔔 Push notifications for alerts  
+- 🗓 7-day forecast and sun timings  
+
+---
+
+## 👨‍💻 Author
+
+*Yash Adhalrao*  
+[GitHub](https://github.com/yash10102005) • [LinkedIn](www.linkedin.com/in/yash-adhalrao-575610285)
+
+---
