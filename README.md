@@ -50,6 +50,6 @@ The app is hosted on *Google Cloud Storage* as a static website, ensuring fast p
 ## 👨‍💻 Author
 
 *Yash Adhalrao*  
-[GitHub](https://github.com/yash10102005) • [LinkedIn](www.linkedin.com/in/yash-adhalrao-575610285)
+[GitHub](https://github.com/yash10102005) • [LinkedIn](https://www.linkedin.com/in/yash-adhalrao-575610285?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BeXuF6fCnSBi93mxw0whw%2BA%3D%3D)
 
 ---
