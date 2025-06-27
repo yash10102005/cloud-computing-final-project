@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="background-overlay"></div>
+    <div id="container">
+        <h1 id="app-title">Weather Horizon</h1>
+        <div id="search-container">
+            <input type="text" id="country" placeholder="Country (e.g., USA)" aria-label="Country">
+            <input type="text" id="city" placeholder="City (e.g., New York)" aria-label="City">
+            <button id="check">Get Weather</button>
+        </div>
+        
+        <div class="weather-card">
+            <div class="weather-header">
+                <img src="tempicons/clouds.svg" alt="Weather icon" id="tempIcon" class="weather-icon">
+                <div class="location-info">
+                    <h2 id="weatherCountry">Search for a location</h2>
+                    <p id="weatherDescription">Weather information will appear here</p>
+                </div>
+            </div>
+            
+            <div class="weather-main">
+                <h2 id="temperature">--°<strong>C</strong></h2>
+            </div>
+            
+            <div class="weather-details">
+                <div class="detail-item">
+                    <span>🌡️ Feels Like</span>
+                    <span id="feelsLike">--°C</span>
+                </div>
+                <div class="detail-item">
+                    <span>💧 Humidity</span>
+                    <span id="humidity">--%</span>
+                </div>
+                <div class="detail-item">
+                    <span>📍 Coordinates</span>
+                    <span id="coordinates">--, --</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
